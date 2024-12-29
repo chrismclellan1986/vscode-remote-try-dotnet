@@ -14,7 +14,17 @@
 		"vscode": {
 			"settings": {},
 			"extensions": [
-				"streetsidesoftware.code-spell-checker"
+				"streetsidesoftware.code-spell-checker",
+				"oderwat.indent-rainbow",
+				"vscode-icons-team.vscode-icons",
+				"wayou.vscode-todo-highlight",
+				"kamikillerto.vscode-colorize",
+				"jmrog.vscode-nuget-package-manager",
+				"kevin-chatham.aspnetcorerazor-html-css-class-completion",
+				"christian-kohler.path-intellisense",
+				"humao.rest-client",
+				"MS-vsliveshare.vsliveshare",
+				"ms-dotnettools.csdevkit"
 			]
 		}
 	},

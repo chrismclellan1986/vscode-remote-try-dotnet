@@ -1,14 +1,14 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
+string name = "Paul Haymen";
 
 app.Urls.Add("http://localhost:5000");
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Hello World! My name is " + name);
 
 app.MapGet("/{cityName}/weather", GetWeatherByCity);
 
 app.Run();
-
 
 Weather GetWeatherByCity(string cityName)
 {
