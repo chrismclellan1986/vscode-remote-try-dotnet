@@ -12,7 +12,10 @@
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
-			"settings": {},
+			"settings": {
+				"editor.fontSize": 14,
+				"editor.fontFamily": "Open Sans"
+			},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"oderwat.indent-rainbow",
@@ -24,7 +27,8 @@
 				"christian-kohler.path-intellisense",
 				"humao.rest-client",
 				"MS-vsliveshare.vsliveshare",
-				"ms-dotnettools.csdevkit"
+				"ms-dotnettools.csdevkit",
+				"aaron-bond.better-comments"
 			]
 		}
 	},
