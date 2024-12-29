@@ -24,11 +24,14 @@
 	"portsAttributes": {
 		"5000": {
 			"label": "Hello Remote World",
-			"onAutoForward": "notify"
+			"onAutoForward": "openBrowser"
 		},
 		"5001": {
 			"protocol": "https"
 		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
